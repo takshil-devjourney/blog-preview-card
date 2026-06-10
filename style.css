@@ -238,3 +238,20 @@ body {
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
   }
 }
+
+@media(width<=375px){
+  .blog-preview-card {
+  width: 327px;
+}
+
+.blog-img img {
+  width: 279px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.blog-content {
+  width: 279px;
+  height: 173px;
+}
+}
